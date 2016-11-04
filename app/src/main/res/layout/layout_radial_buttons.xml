@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/btn_QnA_Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:layout_gravity="bottom|center|right"
+        android:gravity="center"
+        android:background="@drawable/states_circle_orange"
+        android:clickable="true"
+        android:text="@string/QnA"/>
+    <TextView
+        android:id="@+id/btn_join_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:layout_gravity="bottom|center|right"
+        android:gravity="center"
+        android:background="@drawable/states_circle_yellow"
+        android:clickable="true"
+        android:text="@string/join"/>
+    <TextView
+        android:id="@+id/btn_report_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:layout_gravity="bottom|center|right"
+        android:gravity="center"
+        android:background="@drawable/states_circle_green"
+        android:clickable="true"
+        android:text="@string/report"/>
+    <TextView
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:layout_gravity="bottom|center|right"
+        android:gravity="center"
+        android:background="@drawable/states_circle_blue"
+        android:clickable="true"
+        android:text="@string/blue"/>
+
+    <TextView
+        android:id="@+id/btn_indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:layout_gravity="bottom|center|right"
+        android:gravity="center"
+        android:background="@drawable/states_circle_indigo"
+        android:clickable="true"
+        android:text="@string/indigo"/>
+
+    <TextView
+        android:id="@+id/btn_main_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:minWidth="75dp"
+        android:minHeight="75dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/states_circle_red"
+        android:text="@string/menu"
+        android:layout_gravity="bottom|right"
+        android:textIsSelectable="false" />
+
+</FrameLayout>
