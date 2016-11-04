@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp"
+              android:paddingLeft="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date &amp; Time"
+        android:id="@+id/reportWhen"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#125fa2"
+        android:gravity="center_horizontal"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/calendarView"
+        android:layout_gravity="center"
+        android:scrollIndicators="bottom"
+        android:background="#626262"
+        android:dateTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:unfocusedMonthDateColor="#999999"
+        android:selectedWeekBackgroundColor="#00000000"
+        android:showWeekNumber="false"
+        style="@style/AlertDialog.AppCompat.Light"/>
+        //android:weekSeparatorLineColor="#dddcdc"
+        //android:background="#dedddd"
+        //android:dateTextAppearance="@color/black"
+        //android:selectedDateVerticalBar="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/reportWhere"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:paddingLeft="0dp"
+        android:textSize="30dp"
+        android:background="#125fa2"
+        android:gravity="center_horizontal"/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/signMap"
+        android:layout_below="@+id/reportWhere"
+              tools:layout="@layout/rep2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportWhereWrite"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"/>
+
+</LinearLayout>
